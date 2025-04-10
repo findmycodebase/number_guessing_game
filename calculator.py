@@ -15,6 +15,8 @@ if __name__ == "__main__":
   n1 = input("Enter your first number ")
 n2 = input("Enter your second number ")
 operation = input("Enter the operation you want to perform (+, -, * and /) ")
+valid_operations = ["+", "-", "*", "/"]
+
 
 if (operation == "+"):
   print(addition(n1, n2))
@@ -25,5 +27,8 @@ elif (operation == "-"):
 elif (operation == "*"):
   print(multiplication(n1, n2))
 
-else:
+elif (operation == "/"):
   print(division(n1, n2))
+
+elif operation not in valid_operations:
+    print("Invalid operation. Please try again.")
