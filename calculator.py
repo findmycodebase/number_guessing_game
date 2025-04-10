@@ -40,5 +40,5 @@ elif (operation == "*"):
 elif (operation == "/"):
   print(division(n1, n2))
 
-elif operation not in valid_operations:
+else:
     print("Invalid operation. Please try again.")
