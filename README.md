@@ -1,12 +1,34 @@
-# Python Calculator 🧮
+# 🐍 Four Weeks Python Challenge
 
-A simple terminal-based calculator built in Python.
+A collection of beginner-friendly Python projects as part of a personal coding challenge to build consistency, skill, and real-world problem-solving.
 
-## Features
-- Addition, subtraction, multiplication, and division
-- User input via terminal
-- Easy-to-read structure with custom functions
+## 📁 Projects
 
-## How to Run
-```bash
-python calculator.py
+### 1. 🧮 Calculator
+A terminal-based calculator that performs:
+- Addition
+- Subtraction
+- Multiplication
+- Division
+
+Includes:
+- Input validation
+- Error handling (e.g., invalid numbers or division by zero)
+- Clean function structure
+
+### 2. 🎯 Number Guessing Game
+A fun CLI game where:
+- The computer picks a random number between 0 and 10
+- The user guesses until they get it right
+- Tracks number of attempts
+- Handles invalid input gracefully
+
+---
+
+## 🚀 How to Run
+1. Make sure you have Python 3 installed
+2. Clone this repo:
+   ```bash
+   git clone https://github.com/findmycodebase/number_guessing_game.git
+
+
